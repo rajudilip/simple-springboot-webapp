@@ -23,7 +23,7 @@ public class SimplePageController {
     
     @RequestMapping(value="/", method=RequestMethod.GET)
     public String simplePage(Model model){
-        model.addAttribute("name", "Edgar");
+        model.addAttribute("name", "Dilip Raju");
         return "simplepage";
     }
     
